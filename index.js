@@ -58,7 +58,7 @@ window.addEventListener('load', () => {
   }
 
   switch(true) {
-    case (window.location.href === 'file:///C:/Users/Ayoub/Desktop/bootstrap/home.html'):
+    case (window.location.href === 'file:///C:/Users/Ayoub/Desktop/bootstrap/index.html'):
       validate.addEventListener('click', () => access())
       $('#name').on('change textInput input', (e) => unlockButton(e))
       break;
