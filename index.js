@@ -58,11 +58,11 @@ window.addEventListener('load', () => {
   }
 
   switch(true) {
-    case (window.location.href === 'file:///C:/Users/Ayoub/Desktop/bootstrap/index.html'):
+    case (window.location.href.includes('index')):
       validate.addEventListener('click', () => access())
       $('#name').on('change textInput input', (e) => unlockButton(e))
       break;
-    case (window.location.href === 'file:///C:/Users/Ayoub/Desktop/bootstrap/team.html'):
+    case (window.location.href.includes('team')):
       for (let i = 0; i < members.length; i++) {
         console.log(document.getElementById(i))
         document.getElementById(i).style.background = `url(./images/${members[i].name.toLocaleLowerCase()}.png)`
