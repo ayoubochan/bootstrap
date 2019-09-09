@@ -1,17 +1,17 @@
-#Projet Bootstrap (Startup)
+# Projet Bootstrap (Startup)
 
-##Langages utilisés :
+## Langages utilisés :
 - HTML
 - CSS
 - Javascript
 
-##Description
+## Description
 Ce site présente une start-up fictive sur plusieurs pages.
 Il est entièrement responsive et utilise le Grid Bootstrap.
 
-##Avancement
+## Avancement
 Le projet est terminé.
 
-##ScreenShots
+## ScreenShots
 ![](./images/screen-services.png)
 ![](./images/screen-team.png)
